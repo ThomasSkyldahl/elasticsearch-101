@@ -4,6 +4,7 @@ to get a good overall understanding of the platform
 
 1. [Setup and configuration](setup-and-configuration.md)
 2. [Indexing Documents](indexing-documents.md)
+3. [Getting started with Elasticsearch.net and NEST](getting-started-with-nest.md)
 
 ## Where do I find documentation for Elasticsearch? ##
 - [Elasticsearch: The Definitive Guide](http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/index.html)
