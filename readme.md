@@ -5,9 +5,10 @@ to get a good overall understanding of the platform
 1. [Setup and configuration](setup-and-configuration.md)
 2. [Indexing Documents](indexing-documents.md)
 
-
-
-
-## Where do I find the Elasticsearch documentation? ##
+## Where do I find documentation for Elasticsearch? ##
 - [Elasticsearch: The Definitive Guide](http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/index.html)
 - [Elasticsearch: Reference](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/index.html)
+
+
+## Where do I find documentation for Elasticsearch.net & NEST? ##
+- [Elasticsearch.Net & NEST Documentation](http://nest.azurewebsites.net/)
