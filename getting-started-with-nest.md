@@ -11,9 +11,7 @@ Setting up the basic connection to Elasticsearch looks like the following
 	var client = new ElasticClient(settings);
 
 	// Index a customer
-	client.Index<Customer>(new IndexRequest<Customer>
-		{
-			Document = new Customer
+	client.Index<Customer>(new IndexRequest<Customer>(new Customer
 			{ 
 				Id = "vertica", 
 				ContactName = "Sune Hansen",
@@ -22,8 +20,8 @@ Setting up the basic connection to Elasticsearch looks like the following
 				City = "Aarhus C",
 				PostalCode = "DK-8000",
 				Country = "Danmark"
-			} 
-		}
+			}
+		)
 	);
 
 	public class Customer {
