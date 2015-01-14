@@ -11,7 +11,7 @@ Setting up the basic connection to Elasticsearch looks like the following
 	var client = new ElasticClient(settings);
 
 	// Index a customer
-	client.Index(new IndexRequest<Customer>
+	client.Index<Customer>(new IndexRequest<Customer>
 		{
 			Document = new Customer
 			{ 
